@@ -5,7 +5,6 @@ import android.bluetooth.le.AdvertiseCallback
 import android.bluetooth.le.AdvertiseData
 import android.bluetooth.le.AdvertiseSettings
 import android.content.Context
-import android.media.midi.MidiDeviceInfo
 import android.media.midi.MidiInputPort
 import android.media.midi.MidiManager
 import android.os.*
@@ -26,9 +25,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private val connect: View by lazy {
-        findViewById(R.id.connect)
-    }
     private val send: View by lazy {
         findViewById(R.id.send)
     }
